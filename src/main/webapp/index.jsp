@@ -12,7 +12,7 @@
 	<div class = "banner">
 		<img class="newappIcon" src="images/newapp-icon.png">
 		<p class = "appTitle">
-			Favorites Organizer powered by Cloudant
+			Jose de ATI
 		</p>
 	</div>
 
@@ -28,11 +28,7 @@
 			<a class = "infoImg" onclick="toggleAppInfo()">Help</a>
 		</div>
 		<div id='appinfo' class = 'appinfo' style='display: none;'>
-						This application helps you organize your favorite files.</br>
-						Supports all file types, like Audio, Video, Photos, Text etc.</br>
-						Click on Add icon to create a new category for your files. Provide a title and description for the category in the text fields.</br>
-						To add a file to a given category, Click on 'Browse' button to select a file, and 'Upload' button to upload the file.
-						To modify a title or description, Edit the text and press Enter.</br>
+				Yo soy jose y soy de ATI.</br>
 						You can add multiple files (of any type) to a category.</br>
 						Click on <span class = 'deleteBtn' alt='delete'></span> icon to delete the category.
 		</div>

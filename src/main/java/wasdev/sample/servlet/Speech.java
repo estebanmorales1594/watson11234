@@ -1,11 +1,9 @@
-package servlet;
+package wasdev.sample.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
@@ -19,12 +17,7 @@ import com.ibm.watson.developer_cloud.speech_to_text.v1.model.RecognizeOptions;
 import com.ibm.watson.developer_cloud.speech_to_text.v1.model.SpeechResults;
 import com.ibm.watson.developer_cloud.speech_to_text.v1.websocket.BaseRecognizeCallback;
 
-import wasdev.sample.servlet.Speech;
 
-/**
- * Servlet implementation class Speech
- */
-@WebServlet("/Speech")
 public class Speech extends HttpServlet {
 	   
 	   SpeechResults transcript;
@@ -83,5 +76,5 @@ public static void main(String[] args) throws ServletException, IOException, Int
 		 Speech ss = new Speech();
 		 ss.voz_a_texto();
 	}
-	   
 }
+	

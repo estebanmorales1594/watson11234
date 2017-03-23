@@ -16,4 +16,42 @@
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
+	
+	
+	<servlet>
+		<description>CREA SIMPLE</description>
+		<servlet-name>SimpleServlet</servlet-name>
+		<servlet-class>servlet.SimpleServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>SimpleServlet</servlet-name>
+		<url-pattern>/crearSimple</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<description>CREA SPEECH</description>
+		<servlet-name>Speech</servlet-name>
+		<servlet-class>servlet.Speech</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Speech</servlet-name>
+		<url-pattern>/crearSpeech</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<description>CREA TRANSLATOR</description>
+		<servlet-name>Translator</servlet-name>
+		<servlet-class>servlet.Translator</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Translator</servlet-name>
+		<url-pattern>/crearTranslator</url-pattern>
+	</servlet-mapping>
+	
 </web-app>
